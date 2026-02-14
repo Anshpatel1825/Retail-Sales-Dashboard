@@ -67,5 +67,8 @@ The cleaned CSV file was imported into SQL under the table:
 
 ```sql
 
+SELECT SUM([Total Profit Per Order]) AS total_profit
+FROM retail_sales;
+
 
 
