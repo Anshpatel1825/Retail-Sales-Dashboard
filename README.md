@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project analyzes retail sales data using SQL and Power BI to build an interactive business intelligence dashboard.
+This project analyzes retail sales data using Excel and SQL and Power BI to build an interactive business intelligence dashboard.
 
 The dashboard provides meaningful insights into:
 
