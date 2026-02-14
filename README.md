@@ -170,7 +170,7 @@ It supports better strategic and operational decisions.
 
 ### Overview Page
 
-![Dashboard](Dashboard page.png)
+![Dashboard](https://github.com/Anshpatel1825/Retail-Sales-Dashboard/blob/main/Dashboard%20page.png?raw=true )
 
 
 ### Detailed Analysis Page
