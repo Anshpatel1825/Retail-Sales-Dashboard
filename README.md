@@ -175,7 +175,7 @@ It supports better strategic and operational decisions.
 
 ### Detailed Analysis Page
 
-![Detailed Analysis]()
+![Detailed Analysis](https://github.com/Anshpatel1825/Retail-Sales-Dashboard/blob/main/Deatailed%20Analysis%20Page.png?raw=true)
 
 
 ---
