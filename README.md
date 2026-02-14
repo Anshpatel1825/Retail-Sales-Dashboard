@@ -63,12 +63,136 @@ The cleaned CSV file was imported into SQL under the table:
 
 ### Key SQL Queries Used
 
-**1️⃣ Total Sales**
+## 1️⃣ Total Sales
 
 ```sql
-
 SELECT SUM([Total Profit Per Order]) AS total_profit
 FROM retail_sales;
+```
+
+
+## 2️⃣ Total Profit
+
+```sql
+SELECT SUM([Total Profit Per Order]) AS total_profit
+FROM retail_sales;
+```
+
+
+## 3️⃣ Profit by Product Category
+
+```sql
+SELECT [Product Category],
+       SUM([Total Profit Per Order]) AS profit
+FROM retail_sales
+GROUP BY [Product Category];
+
+```
+
+## 4️⃣ Profit by State
+```sql
+SELECT State,
+       SUM([Total Profit Per Order]) AS profit
+FROM retail_sales
+GROUP BY State;
+```
+
+
+
+## 5️⃣ Discount Impact on Profitability
+```sql
+SELECT [Discount %],
+       AVG([Total Profit Per Order]) AS avg_profit
+FROM retail_sales
+GROUP BY [Discount %];
+
+```
+
+
+## Power BI Dashboard Features
+
+### Overview Page
+
+The main dashboard presents high-level business insights:
+
+- KPI Cards (Total Sales, Total Profit, Total Orders, Avg Discount)
+- Sales Trend Over Time
+- Profit by Product Category
+- Sales by Customer Type
+- Ship Mode Analysis
+- Profit by State
+
+Dynamic filters allow users to slice data by:
+
+- Product Category
+- State
+- Ship Mode
+- Year
+
+---
+
+### Detailed Analysis Page
+
+A secondary report page was created for deeper exploration:
+
+- Discount Impact Analysis
+- Detailed Sales Table (Year, Quarter, Month, Sales)
+- Interactive filtering for focused insights
+
+Navigation buttons were implemented to switch between pages, improving user experience.
+
+---
+
+## Business Impact
+
+This dashboard helps stakeholders:
+
+- Monitor sales and profitability trends
+- Identify high-performing product categories
+- Understand customer segment contribution
+- Evaluate discount strategies
+- Analyze shipping and delivery efficiency
+
+It supports better strategic and operational decisions.
+
+---
+
+## Tools & Technologies
+
+- Data Cleaning: Microsoft Excel
+- Database & Querying: SQL
+- Visualization & Dashboarding: Power BI
+- Data Source: CSV Dataset
+
+---
+
+## Dashboard Preview
+
+### Overview Page
+
+(Add screenshot here)
+
+### Detailed Analysis Page
+
+(Add screenshot here)
+
+---
+
+## Conclusion
+
+This project demonstrates how SQL and Power BI can be combined to convert raw retail sales data into meaningful business insights.
+
+It highlights practical data analytics skills including:
+
+- Data Cleaning
+- SQL Analysis
+- KPI Design
+- Dashboard Development
+- Business Insight Generation
+
+
+
+
 
 
 
