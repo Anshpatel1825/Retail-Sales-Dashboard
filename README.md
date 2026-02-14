@@ -170,11 +170,13 @@ It supports better strategic and operational decisions.
 
 ### Overview Page
 
-(Add screenshot here)
+![Dashboard](images/dashboard.png)
+
 
 ### Detailed Analysis Page
 
-(Add screenshot here)
+![Detailed Analysis](images/dashboard.png)
+
 
 ---
 
